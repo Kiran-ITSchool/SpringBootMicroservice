@@ -20,7 +20,7 @@ public class DataReadWriteController {
 	private ProductDataWriter write;
 	
 	@Bean
-	public void readAndWrite() throws IOException {
+	public void readAnd1Write() throws IOException {
 		ArrayList<String> result = (ArrayList<String>) read.readData();
 		write.writeToFile(result);
 	}
