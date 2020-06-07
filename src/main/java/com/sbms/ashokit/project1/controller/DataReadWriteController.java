@@ -23,6 +23,7 @@ public class DataReadWriteController {
 	public void readAndWrite() throws IOException {
 		ArrayList<String> result = (ArrayList<String>) read.readData();
 		write.writeToFile(result);
+		write.writeToFile(result);
 	}
 
 }
