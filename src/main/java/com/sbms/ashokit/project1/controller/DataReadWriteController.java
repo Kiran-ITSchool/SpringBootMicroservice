@@ -24,6 +24,7 @@ public class DataReadWriteController {
 		ArrayList<String> result = (ArrayList<String>) read.readData();
 		write.writeToFile(result);
 		write.writeToFile(result);
+		System.out.println("test");
 	}
 
 }
