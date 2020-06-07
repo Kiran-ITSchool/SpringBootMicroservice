@@ -23,6 +23,7 @@ public class ProductDataReader {
 				String str[] = res.split(",");
 				if (Double.valueOf(str[2]) > 5000.00) {
 					out.add(res);
+					System.out.println("File Read Error");
 				}
 			}
 			System.out.println(out);
